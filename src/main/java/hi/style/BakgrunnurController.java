@@ -26,7 +26,7 @@ public class BakgrunnurController {
 
     private void setBackgroundPositions(Region region, double xPosition) {
         String style = "-fx-background-position: " +
-                "left " + xPosition/6 + "px bottom," +
+                "left " + xPosition/6 + "px center," +
                 "left " + xPosition/5 + "px bottom," +
                 "left " + xPosition/4 + "px center," +
                 "left " + xPosition/3 + "px top," +
